@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--Carefree | Based on FlyDonkey's theSimpleThing2 Black [noBorder]-->
+<Skin Version='2.6' MinorVersion='1000'>
+	#include<string.xml>
+
+	<MainSkinAreaOscFrame Image='main.png' WidthLimit='320' HeightLimit='40' ForceMinWidth='1' ForceMinHeight='1' AlphaMode='1' UseWindowFrame='0'>
+		#include<common.xml #LOGOVAR1=Dummy #LOGOVAR2=Image #LOGOVAR3=Dummy>
+		<Control>
+			<Static Align='Client' Contain='CMD_VIDEO_WINDOW'/>
+		</Control>
+	</MainSkinAreaOscFrame>
+
+	<MainSkinAreaOscInside Image='main.png' ForceMinWidth='1' ForceMinHeight='1'>
+		#include<common.xml #LOGOVAR1=Dummy #LOGOVAR2=Image #LOGOVAR3=Dummy>
+		<Control>
+			<Static Align='Top' IsTitleBar='1' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='170' ImageWidth='10' ImageHeight='32'>
+				<Label CmdID='CMD_SYSTEM_TIME_MESSAGE' FontName='Tahoma' FontSize='18' FontBold='1' TextColor='0xFFFFFF' Left='8' Top='4' Width='52'/>
+				<Button AltCmdID='ID_ETC_CLOSE_TIME_SET' Left='8' Top='4' Width='52' Height='28' ImageLeft='500' ImageTop='220'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='1' Left='64' Top='2' Width='28' Height='28' ImageLeft='300' ImageTop='120'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='2' Left='64' Top='2' Width='28' Height='28' ImageLeft='300' ImageTop='150'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='3' Left='64' Top='2' Width='28' Height='28' ImageLeft='300' ImageTop='180'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='4' Left='64' Top='2' Width='28' Height='28' ImageLeft='300' ImageTop='210'/>
+				<Label CmdID='CMD_TITLE_WITH_MESSAGE' UsingScroll='1' ScrollDistance='2' ScrollInterval='50' FontName='Verdana' FontSize='14' FontBold='1' TextColor='0xFFFFFF' Left='96' Top='8' Width='-96'/>
+				<Button Tooltip='$CARE_MAIN_MIN' CmdID='CMD_MIN_WINDOW' Left='-88' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='90'/>
+				<Button Tooltip='$CARE_MAIN_NORMAL_MODE' CmdID='CMD_LOAD_SKIN_XML' String='AudioSkin.xml' Left='-60' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='60'/>
+				<Button Tooltip='$CARE_MAIN_EXIT' CmdID='ID_APP_EXIT' Left='-32' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='0'/>
+			</Static>
+
+			<Static Align='Bottom' Height='108' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='50' ImageWidth='10' ImageHeight='108'>
+				<Button Tooltip='$CARE_MAIN_PLAY_PREV-BACK' CmdID='ID_PROCESS_PREV' AltCmdID='ID_PLAYBACK_5SEC_BACK' Left='-72' Top='4' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='200'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_PLAY' CmdID='CMD_MEDIA_PLAY' Left='0' Top='4' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='0'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_PAUSE' CmdID='CMD_MEDIA_PAUSE' Left='0' Top='4' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='50'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_NEXT-FORW' CmdID='ID_PROCESS_NEXT' AltCmdID='ID_PLAYBACK_5SEC_FORW' Left='72' Top='4' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='150'/>
+				<Visual Left='8' Top='56' Width='-8' Height='48' BarWidth='6' BarDistance='3' BarStartColor='0xFFFFFF' BarEndColor='0xFFFFFF' LineDistance='1' LineHeight='3' RefreshTime='10' PeakHeight='0' PeakColor='0xFFFFFF' OscColor='0xFFFFFF'/>
+			</Static>
+		</Control>
+	</MainSkinAreaOscInside>
+
+	#include<module.xml>
+</Skin>

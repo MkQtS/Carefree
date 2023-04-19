@@ -1,0 +1,93 @@
+<StringTable Name='$CARE_CAM_CAP-START' String='{$CP0=Record video|Start recording$}{$CP936=录制视频|开始录制$}{$CP950=錄製視訊|開始錄製$}'/>
+<StringTable Name='$CARE_CAM_ONTOP' String='{$CP0=On top$}{$CP936=置顶$}{$CP950=置頂$}'/>
+<StringTable Name='$CARE_CAM_STOP' String='{$CP0=Stop screen capture$}{$CP936=停止屏幕采集$}{$CP950=停止熒幕擷取$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_BLUR' String='{$CP0=Soften$}{$CP936=软模糊$}{$CP950=柔和化$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_DENOISE_D' String='{$CP0=Denoise$}{$CP936=3D降噪$}{$CP950=3D降噪$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_EQULIZER' String='{$CP0=Equalizer$}{$CP936=均衡器$}{$CP950=等化器$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_EQULIZER_PRESET' String='{$CP0=Preset$}{$CP936=预置$}{$CP950=預設$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_POSTPROC' String='{$CP0=Deblock$}{$CP936=去色块$}{$CP950=去色塊$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_REPEAT_RESET' String='{$CP0=Reset$}{$CP936=解除$}{$CP950=解除$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_SHARPEN' String='{$CP0=Sharpen$}{$CP936=锐化$}{$CP950=銳化$}'/>
+<StringTable Name='$CARE_CONTROL_BTN_SOURCE_RATIO' String='{$CP0=Source$}{$CP936=来源$}{$CP950=來源$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_ADVANCE' String='{$CP0=Advance$}{$CP936=高级$}{$CP950=高級$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_BRIGHTNESS' String='{$CP0=Brightness$}{$CP936=亮   度  $}{$CP950=亮   度  $}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_CAPTURE' String='{$CP0=Capture$}{$CP936=截取$}{$CP950=擷取$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_COLOR' String='{$CP0=Color$}{$CP936=色   彩  $}{$CP950=色   調  $}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_CONTRAST' String='{$CP0=Contrast$}{$CP936=对比度  $}{$CP950=對比度  $}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_MOVE' String='{$CP0=Move$}{$CP936=移动$}{$CP950=移動$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_RATIO' String='{$CP0=Ratio: $}{$CP936=比例：$}{$CP950=比例：$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_REPEAT' String='{$CP0=Repeat$}{$CP936=选段$}{$CP950=選段$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_ROTATE' String='{$CP0=Rotate$}{$CP936=翻转$}{$CP950=翻轉$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_SATURATION' String='{$CP0=Saturation$}{$CP936=饱和度  $}{$CP950=飽和度  $}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_SEEK' String='{$CP0=Seek$}{$CP936=定位$}{$CP950=定位$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_SIZE' String='{$CP0=Size$}{$CP936=大小$}{$CP950=大小$}'/>
+<StringTable Name='$CARE_CONTROL_FRONT_SPEED' String='{$CP0=Speed$}{$CP936=速度$}{$CP950=速度$}'/>
+<StringTable Name='$CARE_CONTROL_SKIN_SET' String='{$CP0=Skin Config$}{$CP936=皮肤配置$}{$CP950=面板配置$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_AUDIO' String='{$CP0=AUDIO$}{$CP936=声音$}{$CP950=音訊$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_FRAME' String='{$CP0=Frame$}{$CP936=画幅$}{$CP950=畫幅$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_IMAGE' String='{$CP0=Image$}{$CP936=图像$}{$CP950=圖像$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_PLAY' String='{$CP0=PLAY$}{$CP936=播放$}{$CP950=播放$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_SUB' String='{$CP0=SUB$}{$CP936=字幕$}{$CP950=字幕$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_TOOLS' String='{$CP0=TOOLS$}{$CP936=工具$}{$CP950=工具$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_VIEW' String='{$CP0=VIEW$}{$CP936=显示$}{$CP950=顯示$}'/>
+<StringTable Name='$CARE_CONTROL_TAB_WINDOW' String='{$CP0=Window$}{$CP936=窗口$}{$CP950=視窗$}'/>
+<StringTable Name='$CARE_GUIDE_BTNTIP' String='{$CP0=Click to start$}{$CP936=点击开始使用$}{$CP950=點擊開始使用$}'/>
+<StringTable Name='$CARE_GUIDE_TEXT' String='{$CP0=Click the logo below to start$}{$CP936=点击下方图标开始使用$}{$CP950=點擊下方標識開始使用$}'/>
+<StringTable Name='$CARE_GUIDE_TEXT_PLAYING' String='{$CP0=On Screen Control is not enabled$}{$CP936=未启用图层式皮肤输出$}{$CP950=未啟用圖層式面板輸出$}'/>
+<StringTable Name='$CARE_MAIN_CAP_AUDIO' String='{$CP0=Record Audio$}{$CP936=录制音频$}{$CP950=錄製音訊$}'/>
+<StringTable Name='$CARE_MAIN_CAP_IMAGE' String='{$CP0=Capture Image$}{$CP936=截图$}{$CP950=擷圖$}'/>
+<StringTable Name='$CARE_MAIN_CLOSE-REOPEN' String='{$CP0=Close|Reopen$}{$CP936=关闭|重载$}{$CP950=關閉|重載$}'/>
+<StringTable Name='$CARE_MAIN_EXIT' String='{$CP0=Exit$}{$CP936=退出$}{$CP950=關閉$}'/>
+<StringTable Name='$CARE_MAIN_MAX-FULL' String='{$CP0=Maximize|Full Screen$}{$CP936=最大化|全屏$}{$CP950=最大化|全螢幕$}'/>
+<StringTable Name='$CARE_MAIN_MIN' String='{$CP0=Minimize$}{$CP936=最小化$}{$CP950=最小化$}'/>
+<StringTable Name='$CARE_MAIN_MIN-MINI_MODE' String='{$CP0=Minimize|Mini Mode$}{$CP936=最小化|迷你模式$}{$CP950=最小化|迷你模式$}'/>
+<StringTable Name='$CARE_MAIN_MIN-MINI_WINDOW' String='{$CP0=Minimize|Minimum size$}{$CP936=最小化|迷你尺寸$}{$CP950=最小化|迷你大小$}'/>
+<StringTable Name='$CARE_MAIN_MUTE' String='{$CP0=Mute switch$}{$CP936=切换静音$}{$CP950=切換靜音$}'/>
+<StringTable Name='$CARE_MAIN_NORMAL_MODE' String='{$CP0=Normal Mode$}{$CP936=常规模式$}{$CP950=常規模式$}'/>
+<StringTable Name='$CARE_MAIN_ONTOP_CYCLE' String='{$CP0=Cycle on top$}{$CP936=切换最前端$}{$CP950=切換最上層顯示$}'/>
+<StringTable Name='$CARE_MAIN_OPEN_FILE-FOLDER' String='{$CP0=Open file|folder$}{$CP936=打开 文件|文件夹$}{$CP950=開啟 檔案|資料夾$}'/>
+<StringTable Name='$CARE_MAIN_PLAY_LIST-CYCLE' String='{$CP0=Playlist|Repeat$}{$CP936=播放列表|播放模式$}{$CP950=播放清單|播放模式$}'/>
+<StringTable Name='$CARE_MAIN_PLAY_NEXT-FORW' String='{$CP0=Next|Seek forward$}{$CP936=下一个|快进$}{$CP950=下一檔案|前進$}'/>
+<StringTable Name='$CARE_MAIN_PLAY_PAUSE' String='{$CP0=Pause$}{$CP936=暂停$}{$CP950=暫停$}'/>
+<StringTable Name='$CARE_MAIN_PLAY_PLAY' String='{$CP0=Play$}{$CP936=播放$}{$CP950=播放$}'/>
+<StringTable Name='$CARE_MAIN_PLAY_PREV-BACK' String='{$CP0=Previous|Seek backward$}{$CP936=上一个|后退$}{$CP950=上一檔案|後退$}'/>
+<StringTable Name='$CARE_MAIN_RESTORE' String='{$CP0=Restore$}{$CP936=恢复窗口$}{$CP950=還原大小$}'/>
+<StringTable Name='$CARE_PLAYLIST_ADD' String='{$CP0=Add$}{$CP936=添加$}{$CP950=新增$}'/>
+<StringTable Name='$CARE_PLAYLIST_ATTACH' String='{$CP0=Attach Playlist$}{$CP936=吸附播放列表$}{$CP950=吸附播放清單$}'/>
+<StringTable Name='$CARE_PLAYLIST_BOOKMARK' String='{$CP0=Bookmark$}{$CP936=书签$}{$CP950=書籤$}'/>
+<StringTable Name='$CARE_PLAYLIST_BOTTOM' String='{$CP0=Bottom$}{$CP936=置底$}{$CP950=移到底部$}'/>
+<StringTable Name='$CARE_PLAYLIST_DEL' String='{$CP0=Remove$}{$CP936=移除$}{$CP950=移除$}'/>
+<StringTable Name='$CARE_PLAYLIST_DETACH' String='{$CP0=Detach Playlist$}{$CP936=拆分播放列表$}{$CP950=分離播放清單$}'/>
+<StringTable Name='$CARE_PLAYLIST_DOWN' String='{$CP0=Down$}{$CP936=下移$}{$CP950=下移$}'/>
+<StringTable Name='$CARE_PLAYLIST_EDIT' String='{$CP0=Edit$}{$CP936=编辑$}{$CP950=編輯$}'/>
+<StringTable Name='$CARE_PLAYLIST_FAVORITE' String='{$CP0=Favorite$}{$CP936=收藏夹$}{$CP950=我的最愛$}'/>
+<StringTable Name='$CARE_PLAYLIST_NEXT_PAGE' String='{$CP0=Next page$}{$CP936=下一页$}{$CP950=下一頁$}'/>
+<StringTable Name='$CARE_PLAYLIST_SAVE' String='{$CP0=Save the playlist$}{$CP936=保存播放列表$}{$CP950=儲存播放清單$}'/>
+<StringTable Name='$CARE_PLAYLIST_SORT' String='{$CP0=Sort$}{$CP936=排序$}{$CP950=排序$}'/>
+<StringTable Name='$CARE_PLAYLIST_TOP' String='{$CP0=Top$}{$CP936=置顶$}{$CP950=移到頂端$}'/>
+<StringTable Name='$CARE_PLAYLIST_TOTAL_TIME' String='{$CP0=Total time$}{$CP936=总时长$}{$CP950=總時長$}'/>
+<StringTable Name='$CARE_PLAYLIST_UP' String='{$CP0=Up$}{$CP936=上移$}{$CP950=上移$}'/>
+<StringTable Name='$CARE_WINDOW_BROWSER' String='{$CP0=Browser$}{$CP936=浏览器$}{$CP950=瀏覽器$}'/>
+<StringTable Name='$CARE_WINDOW_CAM1' String='{$CP0=Camera 1$}{$CP936=采集器 1$}{$CP950=攝影機 1$}'/>
+<StringTable Name='$CARE_WINDOW_CAM2' String='{$CP0=Camera 2$}{$CP936=采集器 2$}{$CP950=攝影機 2$}'/>
+<StringTable Name='$CARE_WINDOW_CLOSE' String='{$CP0=Close$}{$CP936=关闭$}{$CP950=關閉$}'/>
+<StringTable Name='$CARE_WINDOW_CONTROL' String='{$CP0=Control Panel$}{$CP936=控制面板$}{$CP950=控制面板$}'/>
+<StringTable Name='$CARE_WINDOW_ONTOP' String='{$CP0=Stay on top of main window$}{$CP936=总在主窗口最前端$}{$CP950=該視窗最上層顯示$}'/>
+<StringTable Name='$CARE_WINDOW_PLAYLIST' String='{$CP0=Playlist$}{$CP936=播放列表$}{$CP950=播放清單$}'/>
+<StringTable Name='$CMD_CAPTURE_FINDWND' String='{$CP0=Choose window to capture$}{$CP936=选择窗口$}{$CP950=選擇視窗$}'/>
+<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='{$CP0=Capture in full screen size$}{$CP936=截取全屏$}{$CP950=擷取全熒幕$}'/>
+<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='{$CP0=Capture in default size$}{$CP936=截取主画面$}{$CP950=擷取主畫面$}'/>
+<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='{$CP0=Optimize size/Restore size$}{$CP936=自适应/之前尺寸$}{$CP950=自適應/先前大小$}'/>
+<StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='{$CP0=PIP(Picture In Picture) Settings$}{$CP936=画中画设置$}{$CP950=畫中畫設定$}'/>
+<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='{$CP0=Hide camera 1$}{$CP936=隐藏1号镜头$}{$CP950=隱藏1號鏡頭$}'/>
+<StringTable Name='$CMD_CAPTURE1ST_PRIMARY_OFF' String='{$CP0=Camera 1 is primary$}{$CP936=已将1号镜头设为主画面来源$}{$CP950=已將1號鏡頭設為主畫面來源$}'/>
+<StringTable Name='$CMD_CAPTURE1ST_PRIMARY_ON' String='{$CP0=Make camera 1 primary$}{$CP936=使用1号镜头作为主画面来源$}{$CP950=使用1號鏡頭作為主畫面來源$}'/>
+<StringTable Name='$CMD_CAPTURE1ST_SELECT_OFF' String='{$CP0=Select camera 1$}{$CP936=使用1号镜头$}{$CP950=使用1號鏡頭$}'/>
+<StringTable Name='$CMD_CAPTURE1ST_SELECT_ON' String='{$CP0=Camera 1 selected$}{$CP936=1号镜头使用中$}{$CP950=1號鏡頭使用中$}'/>
+<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='{$CP0=Show camera 1$}{$CP936=显示1号镜头$}{$CP950=顯示1號鏡頭$}'/>
+<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='{$CP0=Hide camera 2$}{$CP936=隐藏2号镜头$}{$CP950=隱藏2號鏡頭$}'/>
+<StringTable Name='$CMD_CAPTURE2ND_PRIMARY_OFF' String='{$CP0=Camera 2 is primary$}{$CP936=已将2号镜头设为主画面来源$}{$CP950=已將2號鏡頭設為主畫面來源$}'/>
+<StringTable Name='$CMD_CAPTURE2ND_PRIMARY_ON' String='{$CP0=Make camera 2 primary$}{$CP936=使用2号镜头作为主画面来源$}{$CP950=使用2號鏡頭作為主畫面來源$}'/>
+<StringTable Name='$CMD_CAPTURE2ND_SELECT_OFF' String='{$CP0=Select camera 2$}{$CP936=使用2号镜头$}{$CP950=使用2號鏡頭$}'/>
+<StringTable Name='$CMD_CAPTURE2ND_SELECT_ON' String='{$CP0=Camera 2 selected$}{$CP936=2号镜头使用中$}{$CP950=2號鏡頭使用中$}'/>
+<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='{$CP0=Show camera 2$}{$CP936=显示2号镜头$}{$CP950=顯示2號鏡頭$}'/>

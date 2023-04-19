@@ -1,0 +1,430 @@
+<Logo>
+	<Static Align='Client' State='CMD_DEFAULT_LOGO' AlphaMode='1' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' Image='logo.png' ImageLeft='500' ImageTop='140' ImageWidth='12' ImageHeight='12'>
+		<#LOGOVAR1 Top='-36' Width='120' Height='120' ImageLeft='360' ImageTop='0' ImageWidth='120' ImageHeight='120' HoriCenter='1' VertCenter='1'/>
+		<#LOGOVAR1 Top='56' Width='270' Height='72' ImageLeft='500' ImageTop='200' ImageWidth='270' ImageHeight='72' HoriCenter='1' VertCenter='1'/>
+		<#LOGOVAR2 Top='-36' Width='120' Height='120' ImageLeft='360' ImageTop='140' ImageWidth='120' ImageHeight='120' HoriCenter='1' VertCenter='1'/>
+		<#LOGOVAR2 Top='56' Width='270' Height='72' ImageLeft='500' ImageTop='200' ImageWidth='270' ImageHeight='72' HoriCenter='1' VertCenter='1'/>
+		<#LOGOVAR3 Tooltip='$CARE_GUIDE_BTNTIP' CmdID='ID_SKIN_OSC_3D' Width='120' Height='120' HoriCenter='1' VertCenter='1' Cursor='HAND' ImageLeft='360' ImageTop='0'/>
+	</Static>
+	<Static Align='Client' State='CMD_LOADING_LOGO' AlphaMode='1' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' Image='logo.png' ImageLeft='500' ImageTop='140' ImageWidth='12' ImageHeight='12'>
+		<Static Width='300' Height='60' HoriCenter='1' VertCenter='1' UsingAlpha='1'>
+			<Image CmdID='CMD_ANIMATION' AnimationTime='50' AlphaMode='1' Left='0' Top='0' Width='60' Height='60' ImageLeft='0' ImageTop='0' ImageWidth='60' ImageHeight='60'>
+				<SubImage ImageLeft='0' ImageTop='0' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='0' ImageTop='60' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='0' ImageTop='120' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='0' ImageTop='180' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='0' ImageTop='240' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='0' ImageTop='300' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='60' ImageTop='0' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='60' ImageTop='60' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='60' ImageTop='120' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='60' ImageTop='180' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='60' ImageTop='240' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='60' ImageTop='300' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='120' ImageTop='0' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='120' ImageTop='60' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='120' ImageTop='120' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='120' ImageTop='180' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='120' ImageTop='240' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='120' ImageTop='300' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='180' ImageTop='0' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='180' ImageTop='60' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='180' ImageTop='120' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='180' ImageTop='180' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='180' ImageTop='240' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='180' ImageTop='300' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='240' ImageTop='0' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='240' ImageTop='60' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='240' ImageTop='120' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='240' ImageTop='180' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='240' ImageTop='240' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='240' ImageTop='300' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='300' ImageTop='0' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='300' ImageTop='60' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='300' ImageTop='120' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='300' ImageTop='180' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='300' ImageTop='240' ImageWidth='60' ImageHeight='60'/>
+				<SubImage ImageLeft='300' ImageTop='300' ImageWidth='60' ImageHeight='60'/>
+			</Image>
+			<Image Left='120' Top='0' Width='180' Height='60' ImageLeft='540' ImageTop='130' ImageWidth='180' ImageHeight='60'/>
+		</Static>
+	</Static>
+</Logo>
+
+<Menu>
+	<MainMenuPopup>
+		<SubMenu Name='{$CP0=Open$}{$CP936=打开$}{$CP950=開啟$}'>
+			<MenuItem CmdID='ID_OPEN_FILE'/>
+			<MenuItem CmdID='ID_OPEN_URL'/>
+			<MenuItem CmdID='ID_OPEN_FOLDER'/>
+			<MenuItem CmdID='ID_OPEN_CLIPBOARD'/>
+			<MenuItem CmdID='ID_OPEN_FTP'/>
+			<MenuItem CmdID='CMD_POPUPMENU_OPEN_SIMPLE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_OPEN_TYPE'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_REOPEN'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_OPEN_EXT_AUDIO'/>
+			<SubMenu Name='{$CP0=Subtitles$}{$CP936=字幕$}{$CP950=字幕$}'>
+				<MenuItem CmdID='ID_CAPTION_OPEN'/>
+				<MenuItem CmdID='ID_CAPTION_APPEND'/>
+				<MenuItem CmdID='ID_CAPTION_MERGE'/>
+				<MenuItem CmdID='ID_CAPTION_REOPEN'/>
+			</SubMenu>
+			<SubMenu Name='DVD'>
+				<MenuItem CmdID='ID_OPEN_DVD'/>
+				<MenuItem CmdID='ID_OPEN_IFO'/>
+				<MenuItem CmdID='ID_OPEN_BLURAY'/>
+			</SubMenu>
+			<SubMenu Name='{$CP0=Device$}{$CP936=设备$}{$CP950=裝置$}'>
+				<MenuItem CmdID='ID_OPEN_SCREEN_CAPTURE'/>
+				<MenuItem CmdID='ID_OPEN_CAM'/>
+				<MenuItem CmdID='ID_OPEN_WDM'/>
+				<MenuItem CmdID='ID_OPEN_BDA'/>
+				<MenuItem CmdID='ID_DEVICE_SETTING'/>
+			</SubMenu>
+		</SubMenu>
+		<MenuItem CmdID='CMD_POPUPMENU_FAVORITE'/>
+		<SubMenu Name='{$CP0=Playback$}{$CP936=播放$}{$CP950=播放$}'>
+			<MenuItem CmdID='ID_PLAY_PAUSE'/>
+			<MenuItem CmdID='ID_CLOSE_MEDIA'/>
+			<SubMenu Name='{$CP0=Auto Shutdown$}{$CP936=自动关闭$}{$CP950=自動關閉$}'>
+				<MenuItem CmdID='ID_ETC_CLOSE_SYSTEM_FILE'/>
+				<MenuItem CmdID='ID_ETC_CLOSE_SYSTEM_LIST'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_ETC_CLOSE_DELAY_TIME'/>
+				<MenuItem CmdID='ID_ETC_CLOSE_SYSTEM_TIME'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_ETC_CLOSE_TIME_SET'/>
+			</SubMenu>
+			<MenuItem/>
+			<SubMenu Name='{$CP0=Multifile$}{$CP936=多文件$}{$CP950=多檔案$}'>
+				<MenuItem CmdID='ID_PLAYBACK_PREV'/>
+				<MenuItem CmdID='ID_PLAYBACK_NEXT'/>
+				<MenuItem CmdID='ID_REOPEN'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_PLAYBACK_SHUFFLE'/>
+				<MenuItem CmdID='CMD_POPUPMENU_PLAY_REPEAT2'/>
+				<MenuItem CmdID='CMD_POPUPMENU_PLAY_SEAMLESS'/>
+				<MenuItem CmdID='CMD_POPUPMENU_PLAY_LIST'/>
+			</SubMenu>
+			<MenuItem/>
+			<MenuItem CmdID='CMD_POPUPMENU_PLAY_GOTO'/>
+			<MenuItem CmdID='CMD_POPUPMENU_PLAY_SPEED'/>
+			<MenuItem CmdID='CMD_POPUPMENU_PLAY_SKIP'/>
+			<MenuItem CmdID='CMD_POPUPMENU_PLAY_REPEAT'/>
+			<MenuItem CmdID='CMD_POPUPMENU_PLAY_BOOKMARK'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_PLAYBACK_REMEMBER_POS'/>
+			<MenuItem CmdID='ID_PLAYBACK_CLOSE_MEDIA'/>
+			<MenuItem CmdID='ID_PLAYBACK_DELETE_MEDIA'/>
+			<MenuItem CmdID='CMD_POPUPMENU_ETC_COMPLETE'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_PLAYBACK_SET'/>
+		</SubMenu>
+		<MenuItem/>
+		<MenuItem CmdID='ID_FULLSCREEN'/>
+		<MenuItem/>
+		<SubMenu Name='{$CP0=View$}{$CP936=显示$}{$CP950=顯示$}'>
+			<MenuItem CmdID='CMD_POPUPMENU_VISUAL'/>
+			<SubMenu Name='{$CP0=Picture$}{$CP936=图像$}{$CP950=圖像$}'>
+				<MenuItem CmdID='ID_VIDEO_DEC_LUMGAIN'/>
+				<MenuItem CmdID='ID_VIDEO_INC_LUMGAIN'/>
+				<MenuItem CmdID='ID_VIDEO_DEC_LUMGAIN'/>
+				<MenuItem CmdID='ID_VIDEO_INC_LUMOFF'/>
+				<MenuItem CmdID='ID_VIDEO_DEC_HUE'/>
+				<MenuItem CmdID='ID_VIDEO_INC_HUE'/>
+				<MenuItem CmdID='ID_VIDEO_DEC_SAT'/>
+				<MenuItem CmdID='ID_VIDEO_INC_SAT'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_VIDEO_RESET_PROPERTY'/>
+			</SubMenu>
+			<MenuItem CmdID='CMD_POPUPMENU_RATIO'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_EXTEND'/>
+			<MenuItem CmdID='CMD_POPUPMENU_SIZE'/>
+			<SubMenu Name='{$CP0=Frame$}{$CP936=帧位$}{$CP950=影格$}'>
+				<MenuItem CmdID='CMD_POPUPMENU_PANSCAN_PRESET'/>
+				<MenuItem CmdID='ID_PANSCAN_RESET'/>
+				<MenuItem CmdID='ID_PANSCAN_PERSIST'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_PANSCAN_INCSIZE'/>
+				<MenuItem CmdID='ID_PANSCAN_DECSIZE'/>
+				<MenuItem CmdID='ID_PANSCAN_INCWIDTH'/>
+				<MenuItem CmdID='ID_PANSCAN_INCWIDTH'/>
+				<MenuItem CmdID='ID_PANSCAN_INCHEIGHT'/>
+				<MenuItem CmdID='ID_PANSCAN_DECHEIGHT'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_PANSCAN_MOVERIGHT'/>
+				<MenuItem CmdID='ID_PANSCAN_MOVELEFT'/>
+				<MenuItem CmdID='ID_PANSCAN_MOVEUP'/>
+				<MenuItem CmdID='ID_PANSCAN_MOVEDOWN'/>
+				<MenuItem CmdID='ID_PANSCAN_CENTER'/>
+			</SubMenu>
+			<SubMenu Name='{$CP0=Margin$}{$CP936=边距$}{$CP950=邊界$}'>
+				<SubMenu Name='{$CP0=Adjust Margin$}{$CP936=调整边距$}{$CP950=調整邊界$}'>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_TOP_DEC'/>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_TOP_INC'/>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_LEFT_DEC'/>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_LEFT_INC'/>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_BOTTOM_DEC'/>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_BOTTOM_INC'/>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_RIGHT_DEC'/>
+					<MenuItem CmdID='ID_VIDEO_MARGIN_RIGHT_INC'/>
+				</SubMenu>
+				<MenuItem CmdID='CMD_POPUPMENU_VIDEO_MARGIN'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_FULL'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_PERSIST'/>
+			</SubMenu>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_ROTATE'/>
+			<MenuItem/>
+			<MenuItem CmdID='CMD_POPUPMENU_SKIN'/>
+			<SubMenu Name='{$CP0=Control$}{$CP936=控制$}{$CP950=控制$}'>
+				<MenuItem CmdID='ID_PLAYBACK_SHOW_CHAPTER'/>
+				<MenuItem CmdID='ID_PLAYBACK_SHOW_THUMBNAIL'/>
+				<MenuItem CmdID='ID_PLAYBACK_SHOW_TIME'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_PLAYBACK_HIDE_CURSOR'/>
+				<MenuItem CmdID='ID_PLAYBACK_PREVENT_SCREENSAVE'/>
+			</SubMenu>
+			<MenuItem CmdID='CMD_POPUPMENU_ETC_ONTOP'/>
+		</SubMenu>
+		<SubMenu Name='{$CP0=Audio$}{$CP936=声音$}{$CP950=音訊$}'>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_LANG'/>
+			<SubMenu Name='{$CP0=Volume$}{$CP936=音量$}{$CP950=音量$}'>
+				<MenuItem CmdID='ID_AUDIO_VOLUMEUP'/>
+				<MenuItem CmdID='ID_AUDIO_VOLUMEDOWN'/>
+				<MenuItem CmdID='ID_AUDIO_MUTE'/>
+				<MenuItem/>
+				<MenuItem CmdID='CMD_POPUPMENU_AUDIO_SYS_VOL' NoSubMenu='1'/>
+			</SubMenu>
+			<MenuItem/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_VOL_MODE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_SYNC'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_PITCH'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_CAPTURE'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_AUDIO_EQULIZER'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_EQULIZER'/>
+			<MenuItem CmdID='ID_AUDIO_DEC_FILTER'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_FILTER'/>
+			<MenuItem/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_DEVICE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_DEVICE_SPDIF'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_DEVICE_SECOND'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_CHANNEL'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_SAMPLE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_OUTPUT'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_AUDIO_OUT_SETTING'/>
+		</SubMenu>
+		<SubMenu Name='{$CP0=Video$}{$CP936=视频$}{$CP950=視訊$}'>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_STREAM'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_RESIZE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_SHADER'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_DEINTERLACE'/>
+			<MenuItem/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_3D'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_360VR'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_CAPTURE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_MOVIE'/>
+			<MenuItem/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_FILTER'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_TRANS'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_DEVICE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_FILTER'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_AVISYNTH'/>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_VAPOURSYNTH'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_VIDEO_RENDERER_SET'/>
+		</SubMenu>
+		<SubMenu Name='{$CP0=Subtitles$}{$CP936=字幕$}{$CP950=字幕$}'>
+			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_LANG'/>
+			<MenuItem CmdID='ID_CAPTION_VISIBLE'/>
+			<MenuItem CmdID='ID_CAPTION_EXPLORER'/>
+			<MenuItem CmdID='ID_CAPTION_INPUT'/>
+			<MenuItem CmdID='ID_CAPTION_REOPEN'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_CAPTION_COPY_CLIPBOARD'/>
+			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_SAVE'/>
+			<MenuItem/>
+			<SubMenu Name='{$CP0=Subtitle Display$}{$CP936=字幕显示$}{$CP950=字幕顯示$}'>
+				<MenuItem CmdID='ID_CAPTION_IMAGE'/>
+				<MenuItem CmdID='ID_CAPTION_OVERLAY'/>
+				<MenuItem/>
+				<MenuItem CmdID='CMD_POPUPMENU_CAPTION_RENDER'/>
+				<MenuItem CmdID='CMD_POPUPMENU_CAPTION_STYLE'/>
+				<MenuItem/>
+				<MenuItem CmdID='ID_CAPTION_IMAGE_EXTEND'/>
+				<MenuItem CmdID='ID_CAPTION_TEXT_INSIDE'/>
+				<MenuItem CmdID='ID_CAPTION_BOTTOM_VIDEO'/>
+				<MenuItem CmdID='ID_CAPTION_ANIMATION'/>
+				<MenuItem CmdID='ID_CAPTION_BACKGROUND'/>
+				<MenuItem CmdID='ID_CAPTION_FADING'/>
+				<MenuItem CmdID='ID_CAPTION_SMOOTH'/>
+			</SubMenu>
+			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_SYNC'/>
+			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_STEREO'/>
+			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_ONLINE'/>
+			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_TRANS'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_CAPTION_SET'/>
+		</SubMenu>
+		<MenuItem/>
+		<MenuItem CmdID='CMD_POPUPMENU_TV'/>
+		<MenuItem CmdID='CMD_POPUPMENU_DVD'/>
+		<MenuItem CmdID='CMD_POPUPMENU_BROADCAST'/>
+		<SubMenu Name='{$CP0=Assist$}{$CP936=辅助$}{$CP950=輔助$}'>
+			<MenuItem CmdID='ID_PLAYLIST_WINDOW'/>
+			<MenuItem CmdID='ID_CONTROL_BOX_WINDOW'/>
+			<MenuItem CmdID='ID_CHAT_WINDOW'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_PLAYINFO_OSD'/>
+			<MenuItem CmdID='ID_PLAYINFO_MSG'/>
+			<MenuItem CmdID='ID_PLAYINFO_WINDOW'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_APP_ABOUT'/>
+		</SubMenu>
+		<MenuItem/>
+		<SubMenu Name='{$CP0=Other Settings$}{$CP936=其他设置$}{$CP950=其他設定$}'>
+			<MenuItem CmdID='CMD_POPUPMENU_ETC_SAMEOPEN'/>
+			<MenuItem CmdID='CMD_POPUPMENU_ETC_ETC'/>
+			<MenuItem CmdID='CMD_POPUPMENU_ETC_LANG'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_ETC_DISABLE_SHORTKEY'/>
+			<MenuItem CmdID='ID_ETC_MOUSE_MOVE_TITLE'/>
+			<MenuItem CmdID='ID_ETC_SHOW_HISTROY'/>
+			<MenuItem CmdID='ID_ETC_TOUCH_SUPPORT'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_ETC_CONFIG_MAG'/>
+			<MenuItem CmdID='ID_BASIC_SETTING'/>
+		</SubMenu>
+		<MenuItem CmdID='ID_OPTION_WINDOW'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_APP_EXIT'/>
+	</MainMenuPopup>
+
+	<UserMenu Name='CycleModeMenu'>
+		<MenuItem CmdID='ID_PLAYBACK_REPEAT_NONE'/>
+		<MenuItem CmdID='ID_PLAYBACK_REPEAT_ONE'/>
+		<MenuItem CmdID='ID_PLAYBACK_REPEAT_ALL'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_PLAYBACK_SHUFFLE'/>
+	</UserMenu>
+
+	<UserMenu Name='FrameMenu'>
+		<SubMenu Name='{$CP0=Margin$}{$CP936=边距$}{$CP950=邊界$}'>
+			<SubMenu Name='{$CP0=Adjust Margin$}{$CP936=调整边距$}{$CP950=調整邊界$}'>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_TOP_DEC'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_TOP_INC'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_LEFT_DEC'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_LEFT_INC'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_BOTTOM_DEC'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_BOTTOM_INC'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_RIGHT_DEC'/>
+				<MenuItem CmdID='ID_VIDEO_MARGIN_RIGHT_INC'/>
+			</SubMenu>
+			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_MARGIN'/>
+			<MenuItem CmdID='ID_VIDEO_MARGIN'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_VIDEO_MARGIN_FULL'/>
+			<MenuItem CmdID='ID_VIDEO_MARGIN_PERSIST'/>
+		</SubMenu>
+		<MenuItem CmdID='CMD_POPUPMENU_RATIO'/>
+		<MenuItem CmdID='CMD_POPUPMENU_VIDEO_EXTEND'/>
+		<SubMenu Name='{$CP0=Frame$}{$CP936=帧位$}{$CP950=影格$}'>
+			<MenuItem CmdID='CMD_POPUPMENU_PANSCAN_PRESET'/>
+			<MenuItem CmdID='ID_PANSCAN_RESET'/>
+			<MenuItem CmdID='ID_PANSCAN_PERSIST'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_PANSCAN_INCSIZE'/>
+			<MenuItem CmdID='ID_PANSCAN_DECSIZE'/>
+			<MenuItem CmdID='ID_PANSCAN_INCWIDTH'/>
+			<MenuItem CmdID='ID_PANSCAN_INCWIDTH'/>
+			<MenuItem CmdID='ID_PANSCAN_INCHEIGHT'/>
+			<MenuItem CmdID='ID_PANSCAN_DECHEIGHT'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_PANSCAN_MOVERIGHT'/>
+			<MenuItem CmdID='ID_PANSCAN_MOVELEFT'/>
+			<MenuItem CmdID='ID_PANSCAN_MOVEUP'/>
+			<MenuItem CmdID='ID_PANSCAN_MOVEDOWN'/>
+			<MenuItem CmdID='ID_PANSCAN_CENTER'/>
+		</SubMenu>
+	</UserMenu>
+
+	<UserMenu Name='ImageCaptureMenu'>
+		<MenuItem CmdID='ID_VIDEO_IMAGE_THUMBNAIL'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_VIDEO_IMAGE_COPY'/>
+		<MenuItem CmdID='ID_VIDEO_IMAGE_CAPTURE'/>
+		<MenuItem CmdID='ID_VIDEO_IMAGE_CAPTURE_PROMPT'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_VIDEO_IMAGE_COPY_SIZE'/>
+		<MenuItem CmdID='ID_VIDEO_IMAGE_CAPTURE_SIZE'/>
+		<MenuItem CmdID='ID_VIDEO_IMAGE_CAPTURE_PROMPT_SIZE'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_VIDEO_ADV_CAPTURE'/>
+		<MenuItem CmdID='ID_VIDEO_ADV_CAPTURE_START'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_VIDEO_CAPTURE_DELETE'/>
+		<MenuItem/>
+		<SubMenu Name='{$CP0=Capture Settings$}{$CP936=截图设置$}{$CP950=擷圖設定$}'>
+			<MenuItem CmdID='ID_VIDEO_CAPTURE_CAPTION'/>
+			<MenuItem CmdID='ID_VIDEO_CAPTURE_ARCORRECT'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_VIDEO_CAPTURE_NOW_TIME'/>
+			<MenuItem CmdID='ID_VIDEO_CAPTURE_PLAY_TIME'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_VIDEO_IMAGE_BMP'/>
+			<MenuItem CmdID='ID_VIDEO_IMAGE_JPEG'/>
+			<MenuItem CmdID='ID_VIDEO_IMAGE_PNG'/>
+			<MenuItem/>
+			<MenuItem CmdID='ID_VIDEO_SELECT_FOLDER'/>
+			<MenuItem CmdID='ID_VIDEO_OPEN_FOLDER'/>
+			<MenuItem CmdID='ID_VIDEO_CAPTURE_FOLDER'/>
+		</SubMenu>
+	</UserMenu>
+
+	<UserMenu Name='PlaylistAddMenu'>
+		<MenuItem CmdID='ID_PLAYLIST_FILE_ADD'/>
+		<MenuItem CmdID='ID_PLAYLIST_FOLDER_ADD'/>
+		<MenuItem CmdID='ID_PLAYLIST_URL_ADD'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_PLAYLIST_QUEUE_ADD'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_PLAYLIST_ALBUM_NEW'/>
+	</UserMenu>
+
+	<UserMenu Name='PlaylistEditMenu'>
+		<MenuItem Name='{$CP0=Edit selected item$}{$CP936=编辑选中项$}{$CP950=編輯所選項$}' CmdID='ID_PLAYLIST_EDIT'/>
+		<MenuItem CmdID='ID_PLAYLIST_RENAME_FILE'/>
+		<MenuItem CmdID='ID_PLAYLIST_ALBUM_RENAME'/>
+		<MenuItem/>
+		<MenuItem CmdID='ID_PLAYLIST_COPY'/>
+		<MenuItem CmdID='ID_PLAYLIST_PASTE'/>
+		<MenuItem CmdID='ID_PLAYLIST_PASTE_HISTORY'/>
+	</UserMenu>
+
+	<UserMenu Name='SkinSetMenu'>
+		<MenuItem CmdID='ID_SKIN_CONFIG'/>
+		<MenuItem CmdID='ID_LOGO_CONFIG'/>
+		<MenuItem/>
+		<MenuItem CmdID='CMD_POPUPMENU_SKIN_TYPE'/>
+		<MenuItem CmdID='CMD_POPUPMENU_SKIN_DRAW'/>
+		<MenuItem/>
+		<MenuItem CmdID='CMD_POPUPMENU_SKIN_OSC'/>
+	</UserMenu>
+
+	<UserMenu Name='SubtitleMenu'>
+		<MenuItem CmdID='ID_CAPTION_EXPLORER'/>
+		<MenuItem CmdID='ID_CAPTION_INPUT'/>
+		<MenuItem/>
+		<MenuItem CmdID='CMD_POPUPMENU_CAPTION_STEREO'/>
+		<MenuItem CmdID='CMD_POPUPMENU_CAPTION_ONLINE'/>
+		<MenuItem CmdID='CMD_POPUPMENU_CAPTION_TRANS'/>
+	</UserMenu>
+</Menu>
+
+<CustomPopupMenuDef FrameX='400' FrameY='145' FrameW='20' FrameH='20' SelColorX='470' SelColorY='1' LineColorX='480' LineColorY='1' TextColorX='440' TextColorY='1' SelTextColorX='430' SelTextColorY='1' DimTextColorX='460' DimTextColorY='1' CheckX='510' CheckY='160' CheckW='15' CheckH='15' RadioX='525' RadioY='160' RadioW='15' RadioH='15' ScrollbarIndex='1'/>
+<CustomPopupMenuAlt FrameX='450' FrameY='145' FrameW='20' FrameH='20' SelColorX='400' SelColorY='1' LineColorX='430' LineColorY='1' TextColorX='490' TextColorY='1' SelTextColorX='500' SelTextColorY='1' DimTextColorX='450' DimTextColorY='1' CheckX='510' CheckY='160' CheckW='15' CheckH='15' RadioX='525' RadioY='160' RadioW='15' RadioH='15' ScrollbarIndex='1'/>

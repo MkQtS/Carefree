@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--Carefree | Based on FlyDonkey's theSimpleThing2 Black [noBorder]-->
+<Skin Version='2.6' MinorVersion='1000'>
+	#include<string.xml>
+
+	<MainSkinAreaOscFrame Image='main.png' WidthLimit='640' HeightLimit='184' AlphaMode='1' UseWindowFrame='0'>
+		#include<common.xml #LOGOVAR1=Dummy #LOGOVAR2=Image #LOGOVAR3=Dummy>
+		<Control>
+			<Static Align='Right' Contain='CMD_PLAYLIST_TOGGLE' ConstSize='300'>
+				<Static Align='Right' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
+				<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
+					<Label Text='$CARE_WINDOW_PLAYLIST' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='8' Top='8'/>
+					<Button Tooltip='$CARE_PLAYLIST_DETACH' CmdID='CMD_ATTACH_PLAYLIST' Left='-44' Top='10' Width='16' Height='16' ImageLeft='610' ImageTop='20'/>
+					<Button Tooltip='$CARE_WINDOW_CLOSE' CmdID='ID_PLAYLIST_WINDOW' Left='-20' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='0'/>
+				</Static>
+			</Static>
+			<Static Align='Right' Contain='CMD_PLAYLIST_TOGGLE' IsSplitter='1' MinSplitterSizeLT='640' MinSplitterSizeRB='236' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
+			<Static Align='Client' Contain='CMD_VIDEO_WINDOW'/>
+		</Control>
+	</MainSkinAreaOscFrame>
+
+	<MainSkinAreaOscInside Image='main.png'>
+		#include<common.xml #LOGOVAR1=Dummy #LOGOVAR2=Image #LOGOVAR3=Dummy>
+		<Control>
+			<Static Align='Top' IsTitleBar='1' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='170' ImageWidth='10' ImageHeight='32'>
+				<Label CmdID='CMD_SYSTEM_TIME_MESSAGE' FontName='Tahoma' FontSize='18' FontBold='1' TextColor='0xFFFFFF' Left='8' Top='4' Width='52'/>
+				<Button AltCmdID='ID_ETC_CLOSE_TIME_SET' Left='8' Top='4' Width='52' Height='28' ImageLeft='500' ImageTop='220'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='1' Left='-118' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='120'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='2' Left='-118' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='150'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='3' Left='-118' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='180'/>
+				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='4' Left='-118' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='210'/>
+				<Button Tooltip='$CARE_MAIN_MIN-MINI_MODE' CmdID='CMD_MIN_WINDOW' AltCmdID='CMD_LOAD_SKIN_XML' String='AudioMini.xml' Left='-88' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='90'/>
+				<Button Tooltip='$CARE_MAIN_MAX-FULL' CmdID='CMD_MAX_WINDOW' AltCmdID='CMD_FULL_WINDOW' Left='-60' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='30'/>
+				<Button Tooltip='$CARE_MAIN_RESTORE' CmdID='CMD_RESTORE_WINDOW' Left='-60' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='60'/>
+				<Button Tooltip='$CARE_MAIN_EXIT' CmdID='ID_APP_EXIT' Left='-32' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='0'/>
+			</Static>
+
+			<Static Align='Bottom' Height='148' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='10' ImageWidth='10' ImageHeight='148'>
+				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Left='40' Top='4' Width='-256' Height='16'/>
+				<Static State='CMD_ON_MEDIA_PLAY' Left='40' Top='28' Width='320' Height='14'>
+					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Layout Align='Left' Width='12'/>
+					<Label Align='Left' CmdID='CMD_AUDIO_BIT_RATE_MESSAGE' Text='%s kb/s' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Layout Align='Left' Width='8'/>
+					<Label Align='Left' CmdID='CMD_AUDIO_OUT_SAMPLE_RATE_K_MESSAGE' Text='%s kHz' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Layout Align='Left' Width='8'/>
+					<Label Align='Left' CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+				</Static>
+
+				<Visual Left='-248' Top='8' Width='208' Height='36' BarWidth='6' BarDistance='3' BarStartColor='0xFFFFFF' BarEndColor='0xFFFFFF' LineDistance='1' LineHeight='3' RefreshTime='10' PeakHeight='0' PeakColor='0xFFFFFF' OscColor='0xFFFFFF'/>
+
+				<Slider CmdID='CMD_TIMEBAR_CTRL' Cursor='HAND' Left='32' Top='-96' Width='-32' Height='20' LeftMargin='8' RightMargin='8' ImageLeft='400' ImageTop='30' AltImageLeft='400' AltImageTop='10' BackImageLeft='400' BackImageTop='10' OverImageLeft='400' OverImageTop='50' ImageWidth='100' ImageHeight='20' ThumbImageLeft='400' ThumbImageTop='70' ThumbWidth='16' ThumbHeight='20' RepeatAImageLeft='400' RepeatAImageTop='90' RepeatBImageLeft='425' RepeatBImageTop='90' RepeatImageWidth='24' RepeatImageHeight='20' BookmarkImageLeft='450' BookmarkImageTop='90' SeamlessImageLeft='475' SeamlessImageTop='90'/>
+
+				<Button Tooltip='$CARE_MAIN_OPEN_FILE-FOLDER' CmdID='ID_OPEN_FILE' AltCmdID='ID_OPEN_FOLDER' Left='20' Top='-72' Width='48' Height='48' ImageLeft='150' ImageTop='0'/>
+				<Button Tooltip='$CARE_WINDOW_CONTROL' CmdID='ID_CONTROL_BOX_WINDOW' Left='68' Top='-72' Width='48' Height='48' ImageLeft='150' ImageTop='50'/>
+				<Button Tooltip='$CARE_MAIN_CAP_AUDIO' CmdID='ID_AUDIO_CAPTURE' AltCmdID='CMD_POPUPMENU_AUDIO_CAPTURE' Left='116' Top='-72' Width='48' Height='48' ImageLeft='150' ImageTop='150'/>
+
+				<Button Tooltip='$CARE_MAIN_CLOSE-REOPEN' CmdID='CMD_MEDIA_CLOSE' AltCmdID='ID_REOPEN' Left='-120' Top='-72' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='100'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_PREV-BACK' CmdID='ID_PROCESS_PREV' AltCmdID='ID_PLAYBACK_5SEC_BACK' Left='-64' Top='-72' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='200'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_PLAY' CmdID='CMD_MEDIA_PLAY' Left='0' Top='-72' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='0'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_PAUSE' CmdID='CMD_MEDIA_PAUSE' Left='0' Top='-72' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='50'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_NEXT-FORW' CmdID='ID_PROCESS_NEXT' AltCmdID='ID_PLAYBACK_5SEC_FORW' Left='64' Top='-72' Width='48' Height='48' HoriCenter='1' ImageLeft='0' ImageTop='150'/>
+				<Button Tooltip='$CARE_MAIN_PLAY_LIST-CYCLE' CmdID='ID_PLAYLIST_WINDOW' AltCmdID='CMD_POPUP_USER_MENU' AltUserMenuName='CycleModeMenu' Left='120' Top='-72' Width='48' Height='48' HoriCenter='1' ImageLeft='150' ImageTop='200'/>
+
+				<Button Tooltip='$CARE_MAIN_MUTE' CmdID='ID_AUDIO_MUTE' Left='-168' Top='-64' Width='32' Height='32' ImageLeft='400' ImageTop='110'/>
+				<Slider CmdID='CMD_VOLUME_CTRL' Cursor='HAND' Left='-132' Top='-58' Width='96' Height='20' LeftMargin='8' RightMargin='8' ImageLeft='400' ImageTop='30' BackImageLeft='400' BackImageTop='10' OverImageLeft='400' OverImageTop='50' ImageWidth='100' ImageHeight='20' ThumbImageLeft='450' ThumbImageTop='70' ThumbWidth='12' ThumbHeight='20'/>
+			</Static>
+		</Control>
+	</MainSkinAreaOscInside>
+
+	#include<module.xml>
+</Skin>
