@@ -1,0 +1,33 @@
+name: Auto build skin
+
+on:
+  push:
+    paths:
+      - 'skin'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Pack skin
+        run: |
+          cd ./skin/
+          touch -t "$(date +%Y%m%d%H%M)" ./*
+          zip -0mor CarefreeDev.dsf ./*
+
+      - name: Print skin hash
+        run: |
+          cd ./skin/
+          echo "md5sum: $(md5sum ./CarefreeDev.dsf)"
+          echo "sha1sum: $(sha1sum ./CarefreeDev.dsf)"
+          echo "sha256sum: $(sha256sum ./CarefreeDev.dsf)"
+
+      - name: Upload skin
+        uses: actions/upload-artifact@v3
+        with:
+          name: CarefreeDevSkin
+          path: ./skin/
