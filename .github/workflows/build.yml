@@ -3,7 +3,8 @@ name: Auto build skin
 on:
   push:
     paths:
-      - 'skin'
+      - 'skin/**'
+  workflow_dispatch:
 
 jobs:
   build:
