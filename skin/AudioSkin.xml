@@ -36,7 +36,7 @@
 			</Static>
 
 			<Static Align='Bottom' Height='148' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='10' ImageWidth='10' ImageHeight='148'>
-				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Left='40' Top='4' Width='-256' Height='16'/>
+				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='SimHei' FontSize='12' TextColor='0xFFFFFF' Left='40' Top='4' Width='-256'/>
 				<Static State='CMD_ON_MEDIA_PLAY' Left='40' Top='28' Width='320' Height='14'>
 					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
