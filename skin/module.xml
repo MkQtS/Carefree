@@ -4,7 +4,7 @@
 		<Static Align='Right' Contain='CMD_PLAYLIST_TOGGLE' ConstSize='300'>
 			<Static Align='Right' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
 			<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-				<Label Text='$CARE_WINDOW_PLAYLIST' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='8' Top='8'/>
+				<Label Text='$CARE_WINDOW_PLAYLIST' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='8'/>
 				<Button Tooltip='$CARE_PLAYLIST_DETACH' CmdID='CMD_ATTACH_PLAYLIST' Left='-44' Top='10' Width='16' Height='16' ImageLeft='610' ImageTop='20'/>
 				<Button Tooltip='$CARE_WINDOW_CLOSE' CmdID='ID_PLAYLIST_WINDOW' Left='-20' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='0'/>
 			</Static>
@@ -31,7 +31,7 @@
 <ControlBoxSkinArea Image='main.png' Width='448' Height='252' AlphaMode='1' UseWindowFrame='0'>
 	<Control>
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-			<Label Text='$CARE_WINDOW_CONTROL' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='12' Top='8'/>
+			<Label Text='$CARE_WINDOW_CONTROL' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='12' Top='8'/>
 			<Button Tooltip='$CARE_CONTROL_SKIN_SET' CmdID='CMD_POPUP_USER_MENU' UserMenuName='SkinSetMenu' Left='-72' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='20'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='20'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='0'/>
@@ -43,31 +43,31 @@
 
 		<Static Align='Client' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' ImageLeft='425' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button CmdID='CMD_SELECT_PAGE' PageIndex='0' Left='12' Top='16' Width='60' Height='32' ImageLeft='470' ImageTop='250'>
-				<Label Text='$CARE_CONTROL_TAB_TOOLS' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+				<Label Text='$CARE_CONTROL_TAB_TOOLS' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 			</Button>
 			<Button CmdID='CMD_SELECT_PAGE' PageIndex='1' Left='12' Top='54' Width='60' Height='32' ImageLeft='470' ImageTop='250'>
-				<Label Text='$CARE_CONTROL_TAB_AUDIO' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+				<Label Text='$CARE_CONTROL_TAB_AUDIO' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 			</Button>
 			<Button CmdID='CMD_SELECT_PAGE' PageIndex='2' Left='12' Top='92' Width='60' Height='32' ImageLeft='470' ImageTop='250'>
-				<Label Text='$CARE_CONTROL_TAB_VIEW' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+				<Label Text='$CARE_CONTROL_TAB_VIEW' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 			</Button>
 			<Button CmdID='CMD_SELECT_PAGE' PageIndex='3' Left='12' Top='130' Width='60' Height='32' ImageLeft='470' ImageTop='250'>
-				<Label Text='$CARE_CONTROL_TAB_SUB' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+				<Label Text='$CARE_CONTROL_TAB_SUB' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 			</Button>
 			<Button CmdID='CMD_SELECT_PAGE' PageIndex='4' Left='12' Top='168' Width='60' Height='32' ImageLeft='470' ImageTop='250'>
-				<Label Text='$CARE_CONTROL_TAB_PLAY' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+				<Label Text='$CARE_CONTROL_TAB_PLAY' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 			</Button>
 			<Image Left='84' Top='16' Width='4' Height='184' ImageLeft='470' ImageTop='185' ImageWidth='2' ImageHeight='16' TopMargin='1' BottomMargin='1'/>
 
 			<Static State='CMD_PAGE_CONTROL' PageIndex='0' Left='88' Top='0' Width='352' Height='216' UsingAlpha='1'>
-				<Label Text='$CARE_CONTROL_FRONT_CAPTURE' FontName='Tahoma' FontSize='14' TextColor='0x777777' Left='16' Top='36'/>
+				<Label Text='$CARE_CONTROL_FRONT_CAPTURE' FontName='Tahoma' FontSize='14' TextColor='0x888888' Left='16' Top='36'/>
 				<Button CmdID='ID_VIDEO_IMAGE_CAPTURE_PROMPT' AltCmdID='CMD_POPUP_USER_MENU' AltUserMenuName='ImageCaptureMenu' Left='76' Top='32' Width='54' Height='24' ImageLeft='0' ImageTop='340'/>
 				<Button CmdID='ID_AUDIO_CAPTURE' AltCmdID='CMD_POPUPMENU_AUDIO_CAPTURE' Left='136' Top='32' Width='54' Height='24' ImageLeft='170' ImageTop='340'/>
 				<Button CmdID='ID_SAVE_MOVIE' AltCmdID='CMD_POPUPMENU_VIDEO_MOVIE' Left='196' Top='32' Width='54' Height='24' ImageLeft='340' ImageTop='340'/>
 				<Button CmdID='ID_OPEN_SCREEN_CAPTURE' AltCmdID='ID_SCREEN_CAPTURE_SETUP' Left='256' Top='32' Width='54' Height='24' ImageLeft='510' ImageTop='340'/>
 				<Image Left='12' Top='64' Width='308' Height='2' ImageLeft='430' ImageTop='200' ImageWidth='16' ImageHeight='2' LeftMargin='1' RightMargin='1'/>
 
-				<Label Text='$CARE_CONTROL_FRONT_ROTATE' FontName='Tahoma' FontSize='14' TextColor='0x777777' Left='16' Top='96'/>
+				<Label Text='$CARE_CONTROL_FRONT_ROTATE' FontName='Tahoma' FontSize='14' TextColor='0x888888' Left='16' Top='96'/>
 				<Button CmdID='ID_VIDEO_H_FLIP' Left='76' Top='92' Width='42' Height='24' ImageLeft='0' ImageTop='365'/>
 				<Button CmdID='ID_VIDEO_V_FLIP' Left='126' Top='92' Width='42' Height='24' ImageLeft='0' ImageTop='390'/>
 				<Button CmdID='ID_VIDEO_ROTATE_CYCLE' Left='176' Top='92' Width='42' Height='24' ImageLeft='130' ImageTop='365'/>
@@ -76,7 +76,7 @@
 				<Button CmdID='ID_VIDEO_SETTING' Left='282' Top='92' Width='28' Height='24' ImageLeft='260' ImageTop='365'/>
 				<Image Left='12' Top='124' Width='308' Height='2' ImageLeft='430' ImageTop='200' ImageWidth='16' ImageHeight='2' LeftMargin='1' RightMargin='1'/>
 
-				<Label Text='$CARE_CONTROL_FRONT_ADVANCE' FontName='Tahoma' FontSize='14' TextColor='0x777777' Left='16' Top='156'/>
+				<Label Text='$CARE_CONTROL_FRONT_ADVANCE' FontName='Tahoma' FontSize='14' TextColor='0x888888' Left='16' Top='156'/>
 				<Button CmdID='CMD_POPUPMENU_VIDEO_3D' Left='76' Top='152' Width='40' Height='24' ImageLeft='440' ImageTop='365'/>
 				<Button CmdID='CMD_POPUPMENU_VIDEO_360VR' Left='122' Top='152' Width='40' Height='24' ImageLeft='440' ImageTop='390'/>
 				<Button CmdID='ID_VIDEO_RENDERER_SET' Left='168' Top='152' Width='28' Height='24' ImageLeft='260' ImageTop='390'/>
@@ -89,13 +89,13 @@
 
 			<Static State='CMD_PAGE_CONTROL' PageIndex='1' Left='88' Top='0' Width='352' Height='216' UsingAlpha='1'>
 				<Button CmdID='ID_AUDIO_EQULIZER' DownFlag='1' Left='18' Top='32' Width='80' Height='25' ImageLeft='450' ImageTop='520'>
-					<Label Text='$CARE_CONTROL_BTN_EQULIZER' FontName='Tahoma' FontSize='14' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
+					<Label Text='$CARE_CONTROL_BTN_EQULIZER' FontName='Tahoma' FontSize='14' TextColor='0x777777' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
 				</Button>
 				<Button CmdID='CMD_POPUPMENU_AUDIO_EQULIZER' Left='102' Top='32' Width='72' Height='25' ImageLeft='450' ImageTop='550'>
-					<Label CmdID='CMD_EQ_PRESET_MESSAGE' FontName='Tahoma' FontSize='14' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x555555' Ellipsis='1' HoriAlignment='1' VertAlignment='1'/>
+					<Label CmdID='CMD_EQ_PRESET_MESSAGE' FontName='Tahoma' FontSize='14' TextColor='0x777777' OverTextColor='0x888888' PushTextColor='0x555555' Ellipsis='1' HoriAlignment='1' VertAlignment='1'/>
 				</Button>
 				<Button CmdID='CMD_POPUPMENU_EQULIZER_PRESET' Left='178' Top='32' Width='44' Height='25' ImageLeft='380' ImageTop='485'>
-					<Label Text='$CARE_CONTROL_BTN_EQULIZER_PRESET' FontName='Tahoma' FontSize='14' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x555555' HoriAlignment='1' VertAlignment='1'/>
+					<Label Text='$CARE_CONTROL_BTN_EQULIZER_PRESET' FontName='Tahoma' FontSize='14' TextColor='0x777777' OverTextColor='0x888888' PushTextColor='0x555555' HoriAlignment='1' VertAlignment='1'/>
 				</Button>
 				<Button CmdID='CMD_POPUPMENU_AUDIO_LANG' AltCmdID='ID_AUDIO_OUT_SETTING' Left='226' Top='32' Width='25' Height='25' ImageLeft='515' ImageTop='485'/>
 
@@ -132,50 +132,50 @@
 			<Static State='CMD_PAGE_CONTROL' PageIndex='2' Left='88' Top='0' Width='352' Height='216' UsingAlpha='1'>
 				<Static Left='0' Top='0' Width='352' Height='216' UsingAlpha='1'>
 					<Button CmdID='CMD_SELECT_PAGE' PageIndex='0' Left='32' Top='12' Width='72' Height='28' ImageLeft='470' ImageTop='285'>
-						<Label Text='$CARE_CONTROL_TAB_IMAGE' FontName='Tahoma' FontSize='13' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+						<Label Text='$CARE_CONTROL_TAB_IMAGE' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 					</Button>
 					<Button CmdID='CMD_SELECT_PAGE' PageIndex='1' Left='132' Top='12' Width='72' Height='28' ImageLeft='470' ImageTop='285'>
-						<Label Text='$CARE_CONTROL_TAB_FRAME' FontName='Tahoma' FontSize='13' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+						<Label Text='$CARE_CONTROL_TAB_FRAME' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 					</Button>
 					<Button CmdID='CMD_SELECT_PAGE' PageIndex='2' Left='232' Top='12' Width='72' Height='28' ImageLeft='470' ImageTop='285'>
-						<Label Text='$CARE_CONTROL_TAB_WINDOW' FontName='Tahoma' FontSize='13' FontBold='1' TextColor='0x999999' OverTextColor='0xDDDDDD' PushTextColor='0xAAAAAA' HoriAlignment='1' VertAlignment='1'/>
+						<Label Text='$CARE_CONTROL_TAB_WINDOW' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0xAAAAAA' OverTextColor='0xDDDDDD' PushTextColor='0x999999' HoriAlignment='1' VertAlignment='1'/>
 					</Button>
 					<Image Left='16' Top='44' Width='304' Height='2' ImageLeft='430' ImageTop='200' ImageWidth='16' ImageHeight='2' LeftMargin='1' RightMargin='1'/>
 
 					<Static State='CMD_PAGE_CONTROL' PageIndex='0' Left='4' Top='48' Width='328' Height='164' UsingAlpha='1'>
-						<Label Text='$CARE_CONTROL_FRONT_BRIGHTNESS' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='4' Top='10' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
+						<Label Text='$CARE_CONTROL_FRONT_BRIGHTNESS' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='4' Top='10' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
 						<Slider CmdID='CMD_COLOR_OFFSET' Cursor='HAND' Left='74' Top='12' Width='216' Height='12' LeftMargin='4' RightMargin='4' ImageLeft='430' ImageTop='170' BackImageLeft='430' BackImageTop='185' ImageWidth='36' ImageHeight='12' ThumbImageLeft='470' ThumbImageTop='170' ThumbWidth='12' ThumbHeight='12'/>
 						<Button CmdID='CMD_COLOR_OFFSET_DEFAULT' Left='292' Top='10' Width='34' Height='16' ImageLeft='570' ImageTop='580' ImageWidth='24' ImageHeight='16'/>
 
-						<Label Text='$CARE_CONTROL_FRONT_CONTRAST' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='4' Top='38' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
+						<Label Text='$CARE_CONTROL_FRONT_CONTRAST' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='4' Top='38' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
 						<Slider CmdID='CMD_COLOR_GAIN' Cursor='HAND' Left='74' Top='40' Width='216' Height='12' LeftMargin='4' RightMargin='4' ImageLeft='430' ImageTop='170' BackImageLeft='430' BackImageTop='185' ImageWidth='36' ImageHeight='12' ThumbImageLeft='470' ThumbImageTop='170' ThumbWidth='12' ThumbHeight='12'/>
 						<Button CmdID='CMD_COLOR_GAIN_DEFAULT' Left='292' Top='38' Width='34' Height='16' ImageLeft='570' ImageTop='580' ImageWidth='24' ImageHeight='16'/>
 
-						<Label Text='$CARE_CONTROL_FRONT_SATURATION' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='4' Top='66' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
+						<Label Text='$CARE_CONTROL_FRONT_SATURATION' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='4' Top='66' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
 						<Slider CmdID='CMD_COLOR_SAT' Cursor='HAND' Left='74' Top='68' Width='216' Height='12' LeftMargin='4' RightMargin='4' ImageLeft='430' ImageTop='170' BackImageLeft='430' BackImageTop='185' ImageWidth='36' ImageHeight='12' ThumbImageLeft='470' ThumbImageTop='170' ThumbWidth='12' ThumbHeight='12'/>
 						<Button CmdID='CMD_COLOR_SAT_DEFAULT' Left='292' Top='66' Width='34' Height='16' ImageLeft='570' ImageTop='580' ImageWidth='24' ImageHeight='16'/>
 
-						<Label Text='$CARE_CONTROL_FRONT_COLOR' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='4' Top='94' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
+						<Label Text='$CARE_CONTROL_FRONT_COLOR' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='4' Top='94' Width='60' Height='16' HoriAlignment='2' VertAlignment='1'/>
 						<Slider CmdID='CMD_COLOR_HUE' Cursor='HAND' Left='74' Top='96' Width='216' Height='12' LeftMargin='4' RightMargin='4' ImageLeft='430' ImageTop='170' BackImageLeft='430' BackImageTop='185' ImageWidth='36' ImageHeight='12' ThumbImageLeft='470' ThumbImageTop='170' ThumbWidth='12' ThumbHeight='12'/>
 						<Button CmdID='CMD_COLOR_HUE_DEFAULT' Left='292' Top='94' Width='34' Height='16' ImageLeft='570' ImageTop='580' ImageWidth='24' ImageHeight='16'/>
 
 						<Button CmdID='ID_VIDEO_SHARPEN' DownFlag='1' Left='2' Top='124' Width='80' Height='25' ImageLeft='450' ImageTop='520'>
-							<Label Text='$CARE_CONTROL_BTN_SHARPEN' FontName='Tahoma' FontSize='14' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
+							<Label Text='$CARE_CONTROL_BTN_SHARPEN' FontName='Tahoma' FontSize='14' TextColor='0x777777' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
 						</Button>
 						<Button CmdID='ID_VIDEO_BLUR' DownFlag='1' Left='84' Top='124' Width='80' Height='25' ImageLeft='450' ImageTop='520'>
-							<Label Text='$CARE_CONTROL_BTN_BLUR' FontName='Tahoma' FontSize='14' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
+							<Label Text='$CARE_CONTROL_BTN_BLUR' FontName='Tahoma' FontSize='14' TextColor='0x777777' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
 						</Button>
 						<Button CmdID='ID_VIDEO_POSTPROC' DownFlag='1' Left='166' Top='124' Width='80' Height='25' ImageLeft='450' ImageTop='520'>
-							<Label Text='$CARE_CONTROL_BTN_POSTPROC' FontName='Tahoma' FontSize='14' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
+							<Label Text='$CARE_CONTROL_BTN_POSTPROC' FontName='Tahoma' FontSize='14' TextColor='0x777777' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
 						</Button>
 						<Button CmdID='ID_VIDEO_DENOISE_D' DownFlag='1' Left='248' Top='124' Width='80' Height='25' ImageLeft='450' ImageTop='520'>
-							<Label Text='$CARE_CONTROL_BTN_DENOISE_D' FontName='Tahoma' FontSize='14' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
+							<Label Text='$CARE_CONTROL_BTN_DENOISE_D' FontName='Tahoma' FontSize='14' TextColor='0x777777' OverTextColor='0x888888' PushTextColor='0x666666' Left='40' Top='36' HoriAlignment='0' VertAlignment='1' OffsetLeft='20' OffsetWidth='-20'/>
 						</Button>
 					</Static>
 
 					<Static State='CMD_PAGE_CONTROL' PageIndex='1' Left='4' Top='48' Width='328' Height='164' UsingAlpha='1'>
-						<Label Text='$CARE_CONTROL_FRONT_RATIO' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='12' Top='12'/>
-						<Label CmdID='CMD_SCREEN_RATIO_MESSAGE' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='52' Top='12'/>
+						<Label Text='$CARE_CONTROL_FRONT_RATIO' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='12' Top='12'/>
+						<Label CmdID='CMD_SCREEN_RATIO_MESSAGE' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='52' Top='12'/>
 						<Button CmdID='ID_FIT_RATIO' Left='12' Top='36' Width='30' Height='30' ImageLeft='190' ImageTop='485'/>
 						<Button CmdID='ID_SCREEN_RATIO_SETTING' Left='48' Top='36' Width='30' Height='30' ImageLeft='95' ImageTop='485'/>
 						<Button CmdID='ID_SOURCE_RATIO' Left='12' Top='72' Width='40' Height='20' ImageLeft='440' ImageTop='580'>
@@ -198,7 +198,7 @@
 						</Button>
 
 						<Image Left='100' Top='30' Width='216' Height='2' ImageLeft='430' ImageTop='200' ImageWidth='16' ImageHeight='2' LeftMargin='1' RightMargin='1'/>
-						<Label Text='$CARE_CONTROL_FRONT_MOVE' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='104' Top='36'/>
+						<Label Text='$CARE_CONTROL_FRONT_MOVE' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='104' Top='36'/>
 						<Button CmdID='ID_PANSCAN_CENTER' Left='140' Top='72' Width='30' Height='30' ImageLeft='190' ImageTop='415'/>
 						<Button CmdID='ID_PANSCAN_MOVEUP' Left='140' Top='36' Width='30' Height='30' ImageLeft='0' ImageTop='415'/>
 						<Button CmdID='ID_PANSCAN_MOVEDOWN' Left='140' Top='108' Width='30' Height='30' ImageLeft='95' ImageTop='450'/>
@@ -217,7 +217,7 @@
 					</Static>
 
 					<Static State='CMD_PAGE_CONTROL' PageIndex='2' Left='4' Top='48' Width='328' Height='164' UsingAlpha='1'>
-						<Label Text='$CARE_CONTROL_FRONT_MOVE' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='28' Top='20'/>
+						<Label Text='$CARE_CONTROL_FRONT_MOVE' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='28' Top='20'/>
 						<Button CmdID='ID_WINDOW_MOVE_CENTER' Left='64' Top='64' Width='30' Height='30' ImageLeft='190' ImageTop='415'/>
 						<Button CmdID='ID_WINDOW_MOVE_UP' Left='64' Top='20' Width='30' Height='30' ImageLeft='0' ImageTop='415'/>
 						<Button CmdID='ID_WINDOW_MOVE_DOWN' Left='64' Top='108' Width='30' Height='30' ImageLeft='95' ImageTop='450'/>
@@ -228,7 +228,7 @@
 						<Button CmdID='CMD_POPUPMENU_SKIN_TRANS_MAIN' AltCmdID='CMD_POPUPMENU_SKIN_TRANS' Left='280' Top='20' Width='30' Height='30' ImageLeft='285' ImageTop='485'/>
 						<Image Left='108' Top='56' Width='208' Height='2' ImageLeft='430' ImageTop='200' ImageWidth='16' ImageHeight='2' LeftMargin='1' RightMargin='1'/>
 
-						<Label Text='$CARE_CONTROL_FRONT_SIZE' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='160' Top='64'/>
+						<Label Text='$CARE_CONTROL_FRONT_SIZE' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='160' Top='64'/>
 						<Button CmdID='ID_SCREENSIZE_0_5X' AltCmdID='ID_SCREENSIZE_2_0X' Left='192' Top='64' Width='30' Height='30' ImageLeft='570' ImageTop='415'/>
 						<Button CmdID='ID_SCREENSIZE_MIN' AltCmdID='ID_SCREENSIZE_MAX_FULL' Left='236' Top='64' Width='30' Height='30' ImageLeft='570' ImageTop='450'/>
 						<Button CmdID='ID_SCREEN_SIZE_DEF' AltCmdID='ID_SCREEN_SIZE_USER' Left='280' Top='64' Width='30' Height='30' ImageLeft='0' ImageTop='485'/>
@@ -262,7 +262,7 @@
 				<Button CmdID='ID_CAPTION_FAST_SYNC' Left='128' Top='152' Width='48' Height='25' ImageLeft='300' ImageTop='550'/>
 
 				<Image Left='188' Top='28' Width='2' Height='156' ImageLeft='470' ImageTop='185' ImageWidth='2' ImageHeight='16' TopMargin='1' BottomMargin='1'/>
-				<Label Text='$CARE_CONTROL_FRONT_MOVE' FontName='Tahoma' FontSize='12' TextColor='0x666666' Left='208' Top='48'/>
+				<Label Text='$CARE_CONTROL_FRONT_MOVE' FontName='Tahoma' FontSize='12' TextColor='0x777777' Left='208' Top='48'/>
 				<Button CmdID='ID_CAPTION_RESET_POS' Left='248' Top='92' Width='30' Height='30' ImageLeft='190' ImageTop='450'/>
 				<Button CmdID='ID_CAPTION_MOVE_UP' Left='248' Top='44' Width='30' Height='30' ImageLeft='0' ImageTop='415'/>
 				<Button CmdID='ID_CAPTION_MOVE_DOWN' Left='248' Top='140' Width='30' Height='30' ImageLeft='95' ImageTop='450'/>
@@ -271,7 +271,7 @@
 			</Static>
 
 			<Static State='CMD_PAGE_CONTROL' PageIndex='4' Left='88' Top='0' Width='352' Height='216' UsingAlpha='1'>
-				<Label Text='$CARE_CONTROL_FRONT_SEEK' FontName='Tahoma' FontSize='14' TextColor='0x777777' Left='16' Top='36'/>
+				<Label Text='$CARE_CONTROL_FRONT_SEEK' FontName='Tahoma' FontSize='14' TextColor='0x888888' Left='16' Top='36'/>
 				<Button CmdID='ID_PLAYBACK_1MIN_BACK' AltCmdID='ID_PLAYBACK_5MIN_BACK' Left='76' Top='32' Width='36' Height='25' ImageLeft='465' ImageTop='605'>
 					<Label Text='1|5m' FontName='Tahoma' FontSize='10' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x555555' HoriAlignment='0' VertAlignment='1' OffsetLeft='8'/>
 				</Button>
@@ -289,7 +289,7 @@
 				<Button CmdID='ID_SCENE_EXPLORER' AltCmdID='ID_GOTO_PLAY' Left='284' Top='32' Width='25' Height='25' ImageLeft='595' ImageTop='485'/>
 				<Image Left='12' Top='64' Width='308' Height='2' ImageLeft='430' ImageTop='200' ImageWidth='16' ImageHeight='2' LeftMargin='1' RightMargin='1'/>
 
-				<Label Text='$CARE_CONTROL_FRONT_SPEED' FontName='Tahoma' FontSize='14' TextColor='0x777777' Left='16' Top='96'/>
+				<Label Text='$CARE_CONTROL_FRONT_SPEED' FontName='Tahoma' FontSize='14' TextColor='0x888888' Left='16' Top='96'/>
 				<Button CmdID='ID_PLAY_SPEED_SLOWER' Left='76' Top='92' Width='48' Height='25' ImageLeft='0' ImageTop='550'/>
 				<Button CmdID='ID_PLAY_SPEED_NORMAL' Left='132' Top='92' Width='48' Height='25' ImageLeft='150' ImageTop='550'/>
 				<Button CmdID='ID_PLAY_SPEED_FASTER' Left='188' Top='92' Width='48' Height='25' ImageLeft='300' ImageTop='550'/>
@@ -301,7 +301,7 @@
 				</Static>
 				<Image Left='12' Top='124' Width='308' Height='2' ImageLeft='430' ImageTop='200' ImageWidth='16' ImageHeight='2' LeftMargin='1' RightMargin='1'/>
 
-				<Label Text='$CARE_CONTROL_FRONT_REPEAT' FontName='Tahoma' FontSize='14' TextColor='0x777777' Left='16' Top='156'/>
+				<Label Text='$CARE_CONTROL_FRONT_REPEAT' FontName='Tahoma' FontSize='14' TextColor='0x888888' Left='16' Top='156'/>
 				<Button CmdID='ID_PLAY_REPEAT_START_SET' Left='76' Top='152' Width='25' Height='25' ImageLeft='340' ImageTop='605'>
 					<Label Text='A' FontName='Tahoma' FontSize='16' TextColor='0x666666' OverTextColor='0x888888' PushTextColor='0x555555' HoriAlignment='1' VertAlignment='1'/>
 				</Button>
@@ -330,7 +330,7 @@
 		<Static Align='Left' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
 		<Static Align='Right' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-			<Label Text='$CARE_WINDOW_PLAYLIST' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='8' Top='8'/>
+			<Label Text='$CARE_WINDOW_PLAYLIST' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='8'/>
 		#if<SkinName!=AudioMini>
 			<Button Tooltip='$CARE_PLAYLIST_ATTACH' CmdID='CMD_ATTACH_PLAYLIST' Left='-68' Top='10' Width='16' Height='16' ImageLeft='610' ImageTop='0'/>
 		#endif
@@ -432,7 +432,7 @@
 <ChatSkinArea Image='main.png' WidthLimit='300' HeightLimit='400' AlphaMode='1' UseWindowFrame='0'>
 	<Control>
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-			<Label Text='$CARE_WINDOW_BROWSER' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='12' Top='8'/>
+			<Label Text='$CARE_WINDOW_BROWSER' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='12' Top='8'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='20'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='0'/>
 			<Button Tooltip='$CARE_WINDOW_CLOSE' CmdID='ID_CHAT_WINDOW' Left='-24' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='0'/>
@@ -444,8 +444,8 @@
 		<Static Align='Client' State='CMD_VTP_MODE' Contain='CMD_REPLY_CONTENT'/>
 
 		<Static Align='Client' State='CMD_NOT_VTP_MODE' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' ImageLeft='425' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-			<Label Text='This skin does not support chat :(' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='12' Top='12'/>
-			<Label Text='You may try other skin to chat.' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='12' Top='48'/>
+			<Label Text='This skin does not support chat :(' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0x999999' Left='12' Top='12'/>
+			<Label Text='You may try other skin to chat.' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0x999999' Left='12' Top='48'/>
 		</Static>
 	</Control>
 </ChatSkinArea>
@@ -458,7 +458,7 @@
 		<Static Align='Bottom' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_ON' CmdID='CMD_CAPTURE1ST_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_OFF' CmdID='CMD_CAPTURE1ST_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM1' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM1' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam1BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='120'/>
@@ -493,7 +493,7 @@
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_ON' CmdID='CMD_CAPTURE1ST_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_OFF' CmdID='CMD_CAPTURE1ST_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM1' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM1' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam1BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='140'/>
@@ -539,7 +539,7 @@
 		<Static Align='Bottom' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_ON' CmdID='CMD_CAPTURE2ND_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_OFF' CmdID='CMD_CAPTURE2ND_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM2' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM2' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam2BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='120'/>
@@ -574,7 +574,7 @@
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_ON' CmdID='CMD_CAPTURE2ND_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_OFF' CmdID='CMD_CAPTURE2ND_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM2' FontName='Tahoma' FontSize='14' FontBold='1' TextColor='0x999999' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM2' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam2BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='140'/>
