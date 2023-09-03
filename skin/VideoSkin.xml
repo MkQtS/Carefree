@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--Carefree | Based on FlyDonkey's theSimpleThing2 Black [noBorder]-->
-<Skin Version='2.6' MinorVersion='1000'>
+<Skin Version='2.7' MinorVersion='1000'>
 	#include<string.xml>
 
 	<MainSkinAreaOscFrame Image='main.png' WidthLimit='320' HeightLimit='20' AlphaMode='1' UseWindowFrame='0'>
