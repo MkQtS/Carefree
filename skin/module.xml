@@ -4,7 +4,7 @@
 		<Static Align='Right' Contain='CMD_PLAYLIST_TOGGLE' ConstSize='300'>
 			<Static Align='Right' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
 			<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-				<Label Text='$CARE_WINDOW_PLAYLIST' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='8'/>
+				<Label Text='$CARE_WINDOW_PLAYLIST' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='6'/>
 				<Button Tooltip='$CARE_PLAYLIST_DETACH' CmdID='CMD_ATTACH_PLAYLIST' Left='-44' Top='10' Width='16' Height='16' ImageLeft='610' ImageTop='20'/>
 				<Button Tooltip='$CARE_WINDOW_CLOSE' CmdID='ID_PLAYLIST_WINDOW' Left='-20' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='0'/>
 			</Static>
@@ -31,7 +31,7 @@
 <ControlBoxSkinArea Image='main.png' Width='448' Height='252' AlphaMode='1' UseWindowFrame='0'>
 	<Control>
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-			<Label Text='$CARE_WINDOW_CONTROL' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='12' Top='8'/>
+			<Label Text='$CARE_WINDOW_CONTROL' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='12' Top='6'/>
 			<Button Tooltip='$CARE_CONTROL_SKIN_SET' CmdID='CMD_POPUP_USER_MENU' UserMenuName='SkinSetMenu' Left='-72' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='20'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='20'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='0'/>
@@ -330,7 +330,7 @@
 		<Static Align='Left' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
 		<Static Align='Right' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-			<Label Text='$CARE_WINDOW_PLAYLIST' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='8'/>
+			<Label Text='$CARE_WINDOW_PLAYLIST' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='6'/>
 		#if<SkinName!=AudioMini>
 			<Button Tooltip='$CARE_PLAYLIST_ATTACH' CmdID='CMD_ATTACH_PLAYLIST' Left='-68' Top='10' Width='16' Height='16' ImageLeft='610' ImageTop='0'/>
 		#endif
@@ -356,7 +356,7 @@
 					<Button Tooltip='$CARE_PLAYLIST_FAVORITE' CmdID='CMD_POPUPMENU_FAVORITE' Left='76' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='60'/>
 					<Button Tooltip='$CARE_PLAYLIST_BOOKMARK' CmdID='CMD_POPUPMENU_PLAY_BOOKMARK' Left='100' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='40'/>
 					<Image Left='120' Top='8' Width='2' Height='16' ImageLeft='470' ImageTop='185' ImageWidth='2' ImageHeight='16' TopMargin='1' BottomMargin='1'/>
-					<Label CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' Enabled='1' Tooltip='$CARE_PLAYLIST_TOTAL_TIME' FontName='Tahoma' FontSize='13' FontBold='1' TextColor='0x999999' Left='128' Top='8' AutoSize='1' Height='22'/>
+					<Label CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' Enabled='1' Tooltip='$CARE_PLAYLIST_TOTAL_TIME' FontName='Tahoma' FontSize='13' FontBold='1' TextColor='0x999999' Left='128' Top='8' AutoSize='1'/>
 					<Layout Enabled='1' Left='-24' Top='8' Width='16' Height='16' Tooltip='$CARE_PLAYLIST_NEXT_PAGE' CmdID='CMD_SELECT_PAGE' PageIndex='2'>
 						<Button Width='16' Height='16' ImageLeft='610' ImageTop='160' ImageWidth='16' ImageHeight='16'/>
 					</Layout>
@@ -432,7 +432,7 @@
 <ChatSkinArea Image='main.png' WidthLimit='300' HeightLimit='400' AlphaMode='1' UseWindowFrame='0'>
 	<Control>
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-			<Label Text='$CARE_WINDOW_BROWSER' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='12' Top='8'/>
+			<Label Text='$CARE_WINDOW_BROWSER' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='12' Top='6'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='20'/>
 			<Button Tooltip='$CARE_WINDOW_ONTOP' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Left='-48' Top='10' Width='16' Height='16' ImageLeft='560' ImageTop='0'/>
 			<Button Tooltip='$CARE_WINDOW_CLOSE' CmdID='ID_CHAT_WINDOW' Left='-24' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='0'/>
@@ -458,7 +458,7 @@
 		<Static Align='Bottom' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_ON' CmdID='CMD_CAPTURE1ST_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_OFF' CmdID='CMD_CAPTURE1ST_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM1' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM1' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='6'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam1BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='120'/>
@@ -493,7 +493,7 @@
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_ON' CmdID='CMD_CAPTURE1ST_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE1ST_SELECT_OFF' CmdID='CMD_CAPTURE1ST_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM1' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM1' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='6'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam1BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='140'/>
@@ -539,7 +539,7 @@
 		<Static Align='Bottom' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_ON' CmdID='CMD_CAPTURE2ND_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_OFF' CmdID='CMD_CAPTURE2ND_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM2' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM2' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='6'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam2BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='120'/>
@@ -574,7 +574,7 @@
 		<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_ON' CmdID='CMD_CAPTURE2ND_SELECT_ON' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='185'/>
 			<Button Tooltip='$CMD_CAPTURE2ND_SELECT_OFF' CmdID='CMD_CAPTURE2ND_SELECT_OFF' Left='12' Top='14' Width='6' Height='6' ImageLeft='480' ImageTop='195'/>
-			<Label Text='$CARE_WINDOW_CAM2' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='8'/>
+			<Label Text='$CARE_WINDOW_CAM2' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='24' Top='6'/>
 			<Button Tooltip='$CARE_CAM_STOP' CmdID='CMD_MEDIA_CLOSE' Left='96' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='100'/>
 			<Button Tooltip='$CARE_CAM_CAP-START' CmdID='ID_SAVE_MOVIE' AltCmdID='ID_SAVE_MOVIE_START' Left='120' Top='8' Width='20' Height='16' ImageLeft='545' ImageTop='160'/>
 			<Button CmdID='CMD_SET_SKIN_STYLE' SkinStyle='Cam2BottomBar' Left='152' Top='8' Width='16' Height='16' ImageLeft='610' ImageTop='140'/>

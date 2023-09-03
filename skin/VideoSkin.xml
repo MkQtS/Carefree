@@ -9,7 +9,7 @@
 			<Static Align='Right' Contain='CMD_PLAYLIST_TOGGLE' ConstSize='300'>
 				<Static Align='Right' Width='4' TopMargin='1' BottomMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'/>
 				<Static Align='Top' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='400' ImageTop='145' ImageWidth='20' ImageHeight='20'>
-					<Label Text='$CARE_WINDOW_PLAYLIST' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='8'/>
+					<Label Text='$CARE_WINDOW_PLAYLIST' FontName='Tahoma' FontSize='16' FontBold='1' TextColor='0xAAAAAA' Left='8' Top='6'/>
 					<Button Tooltip='$CARE_PLAYLIST_DETACH' CmdID='CMD_ATTACH_PLAYLIST' Left='-44' Top='10' Width='16' Height='16' ImageLeft='610' ImageTop='20'/>
 					<Button Tooltip='$CARE_WINDOW_CLOSE' CmdID='ID_PLAYLIST_WINDOW' Left='-20' Top='10' Width='16' Height='16' ImageLeft='510' ImageTop='0'/>
 				</Static>
@@ -41,7 +41,7 @@
 			</Static>
 
 			<Static Align='Bottom' Height='128' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='26' ImageWidth='10' ImageHeight='132'>
-				<Static State='CMD_ON_MEDIA_PLAY' Left='36' Top='-126' Width='-36' Height='20' VisParentMinWidth='384'>
+				<Static State='CMD_ON_MEDIA_PLAY' Left='36' Top='4' Width='-36' Height='16' VisParentMinWidth='384'>
 					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
