@@ -3,7 +3,7 @@
 <Skin Version='2.7' MinorVersion='1000'>
 	#include<string.xml>
 
-	<MainSkinAreaOscFrame Image='main.png' WidthLimit='640' HeightLimit='184' AlphaMode='1' UseWindowFrame='0'>
+	<MainSkinAreaOscFrame Image='main.png' WidthLimit='640' HeightLimit='280' AlphaMode='1' UseWindowFrame='0'>
 		#include<common.xml #LOGOVAR1=Dummy #LOGOVAR2=Image #LOGOVAR3=Dummy>
 		<Control>
 			<Static Align='Right' Contain='CMD_PLAYLIST_TOGGLE' ConstSize='300'>
@@ -36,8 +36,8 @@
 			</Static>
 
 			<Static Align='Bottom' Height='148' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='10' ImageWidth='10' ImageHeight='148'>
-				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='SimHei' FontSize='12' TextColor='0xFFFFFF' Left='40' Top='4' Width='-256'/>
-				<Static State='CMD_ON_MEDIA_PLAY' Left='40' Top='28' Width='320' Height='16'>
+				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='SimHei' FontSize='12' TextColor='0xFFFFFF' Left='40' Top='-140' Width='-256'/>
+				<Static State='CMD_ON_MEDIA_PLAY' Left='40' Top='-120' Width='320' Height='16'>
 					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
@@ -49,9 +49,9 @@
 					<Label Align='Left' CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 				</Static>
 
-				<Visual Left='-248' Top='8' Width='208' Height='36' BarWidth='6' BarDistance='3' BarStartColor='0xFFFFFF' BarEndColor='0xFFFFFF' LineDistance='1' LineHeight='3' RefreshTime='10' PeakHeight='0' PeakColor='0xFFFFFF' OscColor='0xFFFFFF'/>
+				<Visual Left='-248' Top='-144' Width='208' Height='36' BarWidth='6' BarDistance='3' BarStartColor='0xFFFFFF' BarEndColor='0xFFFFFF' LineDistance='1' LineHeight='3' RefreshTime='10' PeakHeight='0' PeakColor='0xFFFFFF' OscColor='0xFFFFFF'/>
 
-				<Slider CmdID='CMD_TIMEBAR_CTRL' Cursor='HAND' Left='32' Top='-96' Width='-32' Height='20' LeftMargin='8' RightMargin='8' ImageLeft='400' ImageTop='30' AltImageLeft='400' AltImageTop='10' BackImageLeft='400' BackImageTop='10' OverImageLeft='400' OverImageTop='50' ImageWidth='100' ImageHeight='20' ThumbImageLeft='400' ThumbImageTop='70' ThumbWidth='16' ThumbHeight='20' RepeatAImageLeft='400' RepeatAImageTop='90' RepeatBImageLeft='425' RepeatBImageTop='90' RepeatImageWidth='24' RepeatImageHeight='20' BookmarkImageLeft='450' BookmarkImageTop='90' SeamlessImageLeft='475' SeamlessImageTop='90'/>
+				<Slider CmdID='CMD_TIMEBAR_CTRL' Cursor='HAND' Left='32' Top='-104' Width='-32' Height='20' LeftMargin='8' RightMargin='8' ImageLeft='400' ImageTop='30' AltImageLeft='400' AltImageTop='10' BackImageLeft='400' BackImageTop='10' OverImageLeft='400' OverImageTop='50' ImageWidth='100' ImageHeight='20' ThumbImageLeft='400' ThumbImageTop='70' ThumbWidth='16' ThumbHeight='20' RepeatAImageLeft='400' RepeatAImageTop='90' RepeatBImageLeft='425' RepeatBImageTop='90' RepeatImageWidth='24' RepeatImageHeight='20' BookmarkImageLeft='450' BookmarkImageTop='90' SeamlessImageLeft='475' SeamlessImageTop='90'/>
 
 				<Button Tooltip='$CARE_MAIN_OPEN_FILE-FOLDER' CmdID='ID_OPEN_FILE' AltCmdID='ID_OPEN_FOLDER' Left='20' Top='-72' Width='48' Height='48' ImageLeft='150' ImageTop='0'/>
 				<Button Tooltip='$CARE_WINDOW_CONTROL' CmdID='ID_CONTROL_BOX_WINDOW' Left='68' Top='-72' Width='48' Height='48' ImageLeft='150' ImageTop='50'/>

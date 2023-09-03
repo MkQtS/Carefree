@@ -3,7 +3,7 @@
 <Skin Version='2.7' MinorVersion='1000'>
 	#include<string.xml>
 
-	<MainSkinAreaOscFrame Image='main.png' WidthLimit='320' HeightLimit='40' ForceMinWidth='1' ForceMinHeight='1' AlphaMode='1' UseWindowFrame='0'>
+	<MainSkinAreaOscFrame Image='main.png' WidthLimit='320' HeightLimit='180' ForceMinWidth='1' ForceMinHeight='1' AlphaMode='1' UseWindowFrame='0'>
 		#include<common.xml #LOGOVAR1=Dummy #LOGOVAR2=Image #LOGOVAR3=Dummy>
 		<Control>
 			<Static Align='Client' Contain='CMD_VIDEO_WINDOW'/>

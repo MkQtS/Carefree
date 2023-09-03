@@ -3,7 +3,7 @@
 <Skin Version='2.7' MinorVersion='1000'>
 	#include<string.xml>
 
-	<MainSkinAreaOscFrame Image='main.png' WidthLimit='320' HeightLimit='20' AlphaMode='1' UseWindowFrame='0'>
+	<MainSkinAreaOscFrame Image='main.png' WidthLimit='320' HeightLimit='180' AlphaMode='1' UseWindowFrame='0'>
 		#include<common.xml #LOGOVAR1=Image #LOGOVAR2=Dummy #LOGOVAR3=Dummy>
 		<Control>
 			<Static Align='Right' Contain='CMD_PLAYLIST_TOGGLE' ConstSize='300'>
