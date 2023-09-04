@@ -20,7 +20,7 @@
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='2' Left='64' Top='2' Width='28' Height='28' ImageLeft='300' ImageTop='150'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='3' Left='64' Top='2' Width='28' Height='28' ImageLeft='300' ImageTop='180'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='4' Left='64' Top='2' Width='28' Height='28' ImageLeft='300' ImageTop='210'/>
-				<Label CmdID='CMD_TITLE_WITH_MESSAGE' UsingScroll='1' ScrollDistance='2' ScrollInterval='50' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xFFFFFF' Left='96' Top='8' Width='-96'/>
+				<Label CmdID='CMD_TITLE_WITH_MESSAGE' UsingScroll='1' ScrollDistance='2' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='16' FontBold='1' TextColor='0xFFFFFF' Left='96' Top='8' Width='-96'/>
 				<Button Tooltip='$CARE_MAIN_MIN' CmdID='CMD_MIN_WINDOW' Left='-88' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='90'/>
 				<Button Tooltip='$CARE_MAIN_NORMAL_MODE' CmdID='CMD_LOAD_SKIN_XML' String='AudioSkin.xml' Left='-60' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='60'/>
 				<Button Tooltip='$CARE_MAIN_EXIT' CmdID='ID_APP_EXIT' Left='-32' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='0'/>

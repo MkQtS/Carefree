@@ -36,17 +36,17 @@
 			</Static>
 
 			<Static Align='Bottom' Height='148' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='10' ImageWidth='10' ImageHeight='148'>
-				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='SimHei' FontSize='12' TextColor='0xFFFFFF' Left='40' Top='-140' Width='-256'/>
-				<Static State='CMD_ON_MEDIA_PLAY' Left='40' Top='-120' Width='320' Height='16'>
-					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
-					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
-					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Left='40' Top='-140' Width='-256'/>
+				<Static State='CMD_ON_MEDIA_PLAY' Left='40' Top='-120' Width='320' Height='20'>
+					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Layout Align='Left' Width='12'/>
-					<Label Align='Left' CmdID='CMD_AUDIO_BIT_RATE_MESSAGE' Text='%s kb/s' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_AUDIO_BIT_RATE_MESSAGE' Text='%s kb/s' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Layout Align='Left' Width='8'/>
-					<Label Align='Left' CmdID='CMD_AUDIO_OUT_SAMPLE_RATE_K_MESSAGE' Text='%s kHz' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_AUDIO_OUT_SAMPLE_RATE_K_MESSAGE' Text='%s kHz' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Layout Align='Left' Width='8'/>
-					<Label Align='Left' CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 				</Static>
 
 				<Visual Left='-248' Top='-144' Width='208' Height='36' BarWidth='6' BarDistance='3' BarStartColor='0xFFFFFF' BarEndColor='0xFFFFFF' LineDistance='1' LineHeight='3' RefreshTime='10' PeakHeight='0' PeakColor='0xFFFFFF' OscColor='0xFFFFFF'/>

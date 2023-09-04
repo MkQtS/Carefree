@@ -29,7 +29,7 @@
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='2' Left='62' Top='2' Width='28' Height='28' VisParentMaxWidth='385' ImageLeft='300' ImageTop='150'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='3' Left='62' Top='2' Width='28' Height='28' VisParentMaxWidth='385' ImageLeft='300' ImageTop='180'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='4' Left='62' Top='2' Width='28' Height='28' VisParentMaxWidth='385' ImageLeft='300' ImageTop='210'/>
-				<Label CmdID='CMD_TITLE_WITH_MESSAGE' UsingScroll='1' ScrollDistance='2' ScrollInterval='50' FontName='SimHei' FontSize='16' FontBold='1' TextColor='0xFFFFFF' Left='96' Top='8' Width='-96' VisParentMaxWidth='385'/>
+				<Label CmdID='CMD_TITLE_WITH_MESSAGE' UsingScroll='1' ScrollDistance='2' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='16' FontBold='1' TextColor='0xFFFFFF' Left='96' Top='8' Width='-96' VisParentMaxWidth='385'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='1' Left='-118' Top='4' Width='28' Height='28' VisParentMinWidth='384' ImageLeft='300' ImageTop='120'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='2' Left='-118' Top='4' Width='28' Height='28' VisParentMinWidth='384' ImageLeft='300' ImageTop='150'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='3' Left='-118' Top='4' Width='28' Height='28' VisParentMinWidth='384' ImageLeft='300' ImageTop='180'/>
@@ -41,12 +41,12 @@
 			</Static>
 
 			<Static Align='Bottom' Height='128' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='26' ImageWidth='10' ImageHeight='132'>
-				<Static State='CMD_ON_MEDIA_PLAY' Left='36' Top='4' Width='-36' Height='16' VisParentMinWidth='384'>
-					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
-					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
-					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+				<Static State='CMD_ON_MEDIA_PLAY' Left='36' Top='4' Width='-36' Height='20' VisParentMinWidth='384'>
+					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Layout Align='Left' Width='20'/>
-					<Label Align='Left' CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='SimHei' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' FontBold='1' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 				</Static>
 
 				<Slider CmdID='CMD_TIMEBAR_CTRL' Cursor='HAND' Left='32' Top='-104' Width='-32' Height='20' VisParentMinWidth='359' LeftMargin='8' RightMargin='8' ImageLeft='400' ImageTop='30' AltImageLeft='400' AltImageTop='10' BackImageLeft='400' BackImageTop='10' OverImageLeft='400' OverImageTop='50' ImageWidth='100' ImageHeight='20' ThumbImageLeft='400' ThumbImageTop='70' ThumbWidth='16' ThumbHeight='20' RepeatAImageLeft='400' RepeatAImageTop='90' RepeatBImageLeft='425' RepeatBImageTop='90' RepeatImageWidth='24' RepeatImageHeight='20' BookmarkImageLeft='450' BookmarkImageTop='90' SeamlessImageLeft='475' SeamlessImageTop='90'/>
